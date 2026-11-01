@@ -1,0 +1,22 @@
+{
+  "name": "genpark-agentic-commerce-customs-cbp-usmca-origin-certification-skill",
+  "version": "1.0.0",
+  "description": "USMCA / CUSMA / T-MEC Regional Value Content (RVC net cost method) and tariff shift rule-of-origin certification auditor.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "audit_usmca_regional_value_content",
+      "description": "USMCA / CUSMA / T-MEC Regional Value Content (RVC net cost method) and tariff shift rule-of-origin certification auditor.",
+      "sample_input": {
+        "net_cost_usd": 12500.0,
+        "value_non_originating_materials_vnm_usd": 4200.0,
+        "required_rvc_threshold_pct": 60.0,
+        "calculation_method": "NET_COST"
+      }
+    }
+  ]
+}
